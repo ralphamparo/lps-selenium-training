@@ -18,15 +18,6 @@ public class WebDriverIntroduction {
 	 b) 7 Basic steps of Selenium scripting
 	 c) Creating our first Selenium script with ChromeDriver(Browser & navigation commands) 
 	*/
-	@BeforeMethod
-	public void beforeTest() {
-			
-	}	
-
-	@AfterTest
-	public void afterTest() {
-		
-	}
 	
 	public void sleep(int seconds) {
 		try {
