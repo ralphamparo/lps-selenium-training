@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LPS Training" verbose="1" thread-count="5">
+	
+	<test name="Session4Tests" parallel = "true">
+		<classes>
+			<class name="lps.selenium.training.session4.tests.PageObjectModelTestSuite">
+			</class>
+			<class name="lps.selenium.training.session4.tests.PageFactoryTestSuite">
+			</class>
+		</classes>
+	</test>
+
+</suite>

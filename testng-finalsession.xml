@@ -1,0 +1,16 @@
+<suite name="LPS Selenium last day training" verbose="1">
+	<test name="TestNG + Webtables tutorial">
+		<!-- This parameter will be passed this test only -->
+		<parameter name="company" value="Hyundai" />
+		<parameter name="make" value="Creta"/>
+		<parameter name="showroomPrice" value="12,00,000"/>
+		<classes>
+			<class name="lps.selenium.training.finalsession.testNGTutorial">
+				<methods>
+					<include name="findWebTableRowUsingXpath" />
+					<include name="findWebTableRowUsingLoops" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
